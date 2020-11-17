@@ -57,22 +57,22 @@ echo'
                 
                 <div class="input-field col s2">
                     <label for="n_entero">Introduce la Latitud Punto 1:</label>
-                    <input name="n_entero" type="text" class="validate">
+                    <input name="lat1" type="text" class="validate">
                     
                 </div>
                 <div class="input-field col s2">
                     <label for="n_entero">Introduce la Longitud  Punto 1:</label>
-                    <input name="n_entero" type="text" class="validate">
+                    <input name="lon1" type="text" class="validate">
                 
                 </div>
                 <div class="input-field col s2">
                     <label for="n_entero">Introduce la Latitud Punto 2:</label>
-                    <input name="n_entero" type="text" class="validate">
+                    <input name="lat2" type="text" class="validate">
                 
                 </div>
                 <div class="input-field col s2">
                     <label for="n_entero">Introduce la Longitud  Punto 2:</label>
-                    <input name="n_entero" type="text" class="validate">
+                    <input name="lon2" type="text" class="validate">
                 
                 </div>
                
@@ -94,5 +94,16 @@ echo'
 </body>
 
 </html>';
+
+error_reporting(E_ERROR | E_WARNING | E_PARSE);
+echo "El method  usado fué: ",$_SERVER["REQUEST_METHOD"],"<br>"; 
+echo  $_POST['lat1'],"<br>"; 
+echo  $_POST['lon1'],"<br>"; 
+echo  $_POST['lat2'],"<br>"; 
+echo  $_POST['lon2'],"<br>"; 
+
+
+
+
 
 
