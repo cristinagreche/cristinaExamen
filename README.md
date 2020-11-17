@@ -5,4 +5,4 @@ no se me olvida que tengo que poner en los input (para cuando haga el php) lo de
 $var=htmlspecialchars($_REQUEST['texto'], ENT_QUOTES, 'UTF-8'); y lo del try-catch para las excepciones
 Para desplegar en heroku: https://cristinaexamen.herokuapp.com/
 
-Ah, y te salen dos despliegues de heroku porque antes de empazar con composer que me iba a llevar tiempo fui desplegando en heroku por si me veía pillada. Y luego con los cambios lo volví a hacer, aunque creo que no hacía falta.
+Ah, y te salen dos despliegues de heroku porque antes de empazar con composer como me iba a llevar tiempo, fui desplegando en heroku por si me veía pillada. Y luego con los cambios lo volví a hacer, aunque creo que no hacía falta.
